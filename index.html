@@ -1,0 +1,92 @@
+<html lang="en" class="theme-dark"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página - Tiago M.</title>
+    <link rel="icon" type="image/x-icon" href="https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/1/2022/07/favicon.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="caroussel.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="chrome-extension://ihcjicgdanjaechkgeegckofjjedodee/app/content-style.css"></head>
+  <body>
+    <header class="header">
+        <div>
+            <img src="assets/stars.webp" alt="estrelinhas" class="estrelas">
+        </div>
+        <h1> Seja bem vindo(a) ao meu projeto!</h1>
+
+        <nav>
+          <ul>
+            <a href="#videos" class="nav-item">
+              <li>Vídeos</li>
+            </a>
+            <a href="#musicas" class="nav-item">
+              <li>Músicas</li>
+            </a>
+            <a href="#fotos" class="nav-item">
+              <li>Fotos</li>
+            </a>
+          </ul>
+        </nav>       
+         <div>
+            <img src="assets/stars.webp" alt="estrelinhas" class="estrelas">
+        </div>
+    </header>
+    <main>
+      <div class="media-container">
+        <div class="section-box" id="videos">
+          
+          <h2>Vídeos</h2>
+          <div class="carousel-container">
+            <div class="carousel-track" style="transform: translateX(0%);">
+                <div class="carousel-item">
+                    <video controls="">
+                        <source src="assets/air.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="carousel-item">
+                    <video controls="">
+                        <source src="assets/dim.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="carousel-item">
+                    <video controls="">
+                        <source src="assets/say.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <button class="nav-button prev-button">&lt;</button>
+            <button class="nav-button next-button">&gt;</button>
+          </div>
+        </div>
+        <section id="musicas">
+          <h2>Músicas</h2>
+          <label for="audio1">MixKit- HipHop (0)</label>
+          <audio id="audio1" name="audio1" src="assets/loop.mp3" controls=""></audio>
+          <label for="audio2">Mixkit- Tech House</label>
+          <audio id="audio2" name="audio2" src="assets/viola.mp3" controls=""></audio>
+          <label for="audio3">MixKit- Sun and His daughter</label>
+          <audio id="audio3" name="audio3" src="assets/xo.mp3" controls=""></audio>
+          <label for="audio4">MixKit- Hazy after hours</label>
+          <audio id="audio3" name="audio3" src="assets/colors.mp3" controls=""></audio>
+          <label for="audio5">MixKit- A very Happy Christmas</label>
+          <audio id="audio3" name="audio3" src="assets/cotton.mp3" controls=""></audio>
+        </section>
+      </div>
+      <section id="fotos">
+        <h2>Fotos</h2>
+        <img src="assets/zebra.jpg">
+        <img src="assets/foam.jpg">
+        <img src="assets/head.jpg">
+      </section>
+      
+    </main>
+    <footer>
+      <p>Tiago Martins Domingues - tiago.domingues2@fatec.sp.gov.br</p>
+     <a href="https://lucassilvaperes.github.io/lucasperes.github.io/">Código de Inspiração</a>
+      <p>Fatec Votorantim</p>
+    </footer>
+  
+  <script src="caroussel.js"></script>
+  </body></html>

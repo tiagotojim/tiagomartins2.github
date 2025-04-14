@@ -1,0 +1,133 @@
+:root.theme-light{
+    --primary-color: #000000; 
+    --secondary-color: #4d4d4d;
+    --background-color: #d5dce6; 
+    --text-color: #312f3c; 
+    --border-color: #000000; 
+  }
+  
+  :root.theme-dark {
+    --primary-color: #000000;    
+    --secondary-color: #383838;  
+    --background-color: #f1f1f1;
+    --text-color: #d5d8e0;  
+    --border-color: #485581;
+  }
+  
+  body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family:"Special Gothic Expanded One", sans-serif;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+  }
+
+.estrelas{
+text-align: center;
+margin: auto;
+display:block
+}
+  
+  h1{
+
+    text-align: center;
+    padding: 20px 10px;
+    margin: 20px;
+ 
+  }
+  .header{
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px 0px;
+    margin: 20px;
+  }
+  
+  section, .section-box{
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 20px;
+  }
+   h2{
+    margin: 0 0 15px 0;
+    font-size: 1.5em;
+  }
+  
+  ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  li{
+    background-color: var(--secondary-color);
+    display: inline;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  li:hover{
+    background-color: var(--background-color);
+    transition: all 0.2s ease;
+  }
+  
+  .media-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+  .media-container section {
+    flex: 1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .nav-item{
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+  }
+  
+  audio{
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  #fotos{
+    text-align: center; 
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #fotos>img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  #fotos>img:hover,
+  #fotos>img:focus {
+    transform: scale(1.5);
+    z-index: 9999;
+  }
+  
+  footer{
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+  }
